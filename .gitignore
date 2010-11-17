@@ -1,0 +1,48 @@
+# no backup files (gedit, kate, etc)
+*~
+.DS_Store
+.swp
+
+# no eclipse project files
+.project
+.settings
+
+# no NetBeans project files
+nbproject
+
+# don't store the sass cache
+.sass-cache/*
+
+# don't commit log files
+log/*
+
+config/locales/log
+
+#don't commit the cache
+public/cache/*
+
+# don't commit the documents directory, generate those on update
+.yardoc/*
+doc/app/*
+doc/yard/*
+doc/models.svg
+doc/controllers.svg
+
+# no sqlite changes
+db/*.sqlite3
+
+# no temporary files
+.tmp*
+tmp/*
+
+.idea*
+
+# vim swap files
+.*.swp
+.*.swo
+
+# bundler files
+.bundle/
+.rvmrc
+Gemfile.lock
+
